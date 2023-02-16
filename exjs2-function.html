@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exjs2-function</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="exjs2-function.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ברוכים הבאים לסופר "רק בריא"</h1>
+      <p>הוסיפו מוצרים לעגלת הקניות, קניה מהנה:)</p>
+    </header>
+
+    <main>
+      <div class="img-groceries">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/melingoimages/Images/4315.jpg"
+          alt="תפוח"
+          width="280px"
+        />
+
+        <img
+          src="https://www.nizat.com/ProductsImages/E518334_562019111229.jpg"
+          alt="לחם שיפון"
+          width="280px"
+          height="280px"
+        />
+
+        <img
+          src="https://d3m9l0v76dty0.cloudfront.net/system/photos/6659825/extra_large/5115709b1020cbfab2a14adb5401b2cb.jpg"
+          alt="חלב שקדים"
+          width="280px"
+          height="280px"
+        />
+
+        <img
+          src="https://www.nizat.com/ProductsImages/K275185_296202215537.jpg"
+          alt="פסטה"
+          width="280px"
+          height="280px"
+        />
+
+        <img
+          src="https://m.pricez.co.il/ProductPictures/7290110114893.jpg"
+          alt="מיץ תפוזים"
+          width="280px"
+          height="280px"
+        />
+      </div>
+      <div class="addToShoppingCart">
+        <button onclick="addAnApple()">הוסף לעגלת הקניות</button>
+        <button onclick="addBread()">הוסף לעגלת קניות</button>
+        <button onclick="addMilk()">הוסף לעגלת קניות</button>
+        <button onclick="addPasta()">הוסף לעגלת קניות</button>
+        <button onclick="addOrangeJuice()">הוסף לעגלת קניות</button>
+      </div>
+
+      <div class="reduceFromShoppingCart">
+        <button onclick="reduceAnApple()">הסר מעגלת הקניות</button>
+        <button onclick="reduceBread()">הסר מעגלת הקניות</button>
+        <button onclick="reduceMilk()">הסר מעגלת הקניות</button>
+        <button onclick="reducePasta()">הסר מעגלת הקניות</button>
+        <button onclick="reduceOrangeJuice()">הסר מעגלת הקניות</button>
+      </div>
+
+      <div class="showCart">
+        <button onclick="showCart()">הצג כמות בconsole.log</button>
+      </div>
+    </main>
+
+    <footer>
+      <h2>תודה שקניתם בסופר "רק בריא"</h2>
+
+      <span>אתרים מומלצים:</span>
+      <div class="recommended">
+        <div class="n-d">
+          <a href="https://www.nizat.com/" target="_blank"
+            ><img
+              alt="ניצת הדובדבן"
+              src="https://www.nizat.com/images/headerright.jpg"
+              style="border: 0px solid"
+              title="ניצת הדובדבן"
+              width="70px"
+          /></a>
+        </div>
+
+        <div class="shaked">
+          <a href="https://www.shkedya.co.il/" target="_blank"
+            ><img
+              alt="שקדיה"
+              src="https://d3m9l0v76dty0.cloudfront.net/system/logos/4454/original/16a98b71ce5966862578c17ff7b93fc8.png"
+              style="border: 0px solid"
+              title="שקדיה"
+              width="70px"
+          /></a>
+        </div>
+
+        <div class="noy">
+          <a href="https://noyhasade.co.il/" target="_blank"
+            ><img
+              alt="נוי השדה"
+              src="https://d7v3g3v6.stackpathcdn.com/wp-content/themes/noyhasade/assets/images/noyhasade.png"
+              style="border: 0px solid"
+              title="נוי השדה"
+              width="70px"
+          /></a>
+        </div>
+      </div>
+
+      <div class="Copyright">
+        <h7>הזכויות שמורות לדיקלה כהן</h7>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/1200px-Copyright.svg.png"
+          alt="זכויות יוצרים"
+          width="20px"
+        />
+      </div>
+    </footer>
+  </body>
+</html>

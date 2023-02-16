@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  direction: rtl;
+}
+
+header {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: rgb(55, 211, 138);
+  padding: 10%;
+}
+
+.img-groceries > img {
+  padding: 10px;
+}
+
+.img-groceries,
+.addToShoppingCart,
+.reduceFromShoppingCart {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.addToShoppingCart > button:hover {
+  background-color: blue;
+}
+
+.reduceFromShoppingCart > button:hover {
+  background-color: red;
+}
+
+.addToShoppingCart > button,
+.reduceFromShoppingCart > button,
+.showCart > button {
+  width: 220px;
+  height: 50px;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+.showCart > button {
+  margin-top: 50px;
+  padding-top: 2px;
+}
+
+.showCart > button:hover {
+  background-color: yellow;
+}
+
+h1 {
+  color: rgb(11, 116, 42);
+  font-weight: 400;
+  font-size: 5em;
+}
+p,
+h2 {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+span {
+  font-size: 40px;
+}
+
+.recommended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 50px;
+  padding: 50px;
+}
+
+.copyright {
+  text-align: left;
+  margin-bottom: 2;
+  margin-left: 2;
+}
